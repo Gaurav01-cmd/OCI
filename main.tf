@@ -125,7 +125,7 @@ resource "oci_core_security_list" "my_security_list" {
 
 # resource "oci_core_instance" "test_instance" {
 #     count = var.instance_count
-#    . availability_domain = var.availability_domain
+#     availability_domain = var.availability_domain
 #     display_name = "My_compute_instance"
 #     state = var.instance_state
 #     compartment_id = oci_identity_compartment.my-test_compartment.id
