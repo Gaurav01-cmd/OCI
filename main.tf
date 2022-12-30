@@ -149,4 +149,4 @@ resource "oci_core_security_list" "my_security_list" {
     #compartment_id = var.compartment_id
 #}
 #}
-
+##################################
